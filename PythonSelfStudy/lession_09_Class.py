@@ -119,3 +119,17 @@ elic_car.life.get_life_time()
   3.导入模块中所有的类  不推荐,不知道有哪些类
     from car import *
    '''
+
+
+from collections import OrderedDict
+
+# lanuages = OrderedDict()
+# lanuages['jen'] = 'python'
+# lanuages['sarah'] = 'c'
+# lanuages['edward'] = 'ruby'
+# lanuages['phil'] = 'python'
+
+# for name,lanuage in lanuages.items():
+#     print(name.title() + " favorite lanuage is " +
+#     lanuage.title() + ".")
+

@@ -1,0 +1,13 @@
+In python you can: str(number)
+In python you can: len(string)
+In python you can: strip(string)
+In python you can: rstrip(string)
+In python you can: lstrip(string)
+In python you can: list = [value**2 for value in range(1,9)]
+In python you can: str = input('Get input from user: ')
+In python you can: with open(my_file) as file_object:
+In python you can:     contents = file_object.read()
+In python you can:     print(contents)
+In python you can: with open(test10_1) as file_obj:
+In python you can:     lines = file_obj.readlines()
+In python you can: print(lines)

@@ -1,0 +1,13 @@
+cd /d C:\Workplace\python3\learning_log
+python -m venv ll_env
+ll_env\Scripts\activate
+pip install Django
+django-admin.exe startproject learning_log .
+python manage.py migrate
+python manage.py runserver
+open browser with http://localhost:8000/
+
+open a new command window
+cd /d C:\Workplace\python3\learning_log
+ll_env\Scripts\activate
+python manage.py startapp learning_logs
